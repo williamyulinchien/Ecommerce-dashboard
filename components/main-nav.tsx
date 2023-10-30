@@ -13,42 +13,42 @@ export default function MainNav({
     const routes = [
         {
             href:`/${params.storeId}`,
-            label:'Overview',
+            label:'總覽',
             active : pathname === `/${params.storeId}`,
         },
         {
           href:`/${params.storeId}/billboards`,
-          label:'Billboards',
+          label:'公布欄',
           active : pathname === `/${params.storeId}/billboards`,
         },
         {
           href:`/${params.storeId}/categories`,
-          label:'Categories',
+          label:'類別',
           active : pathname === `/${params.storeId}/categories`,
         },
         {
           href:`/${params.storeId}/products`,
-          label:'Products',
+          label:'產品',
           active : pathname === `/${params.storeId}/products`,
         },
         {
           href:`/${params.storeId}/sizes`,
-          label:'Sizes',
+          label:'尺寸',
           active : pathname === `/${params.storeId}/sizes`,
         },
         {
           href:`/${params.storeId}/colors`,
-          label:'Colors',
+          label:'顏色',
           active : pathname === `/${params.storeId}/colors`,
         },
         {
           href:`/${params.storeId}/orders`,
-          label:'Orders',
+          label:'訂單',
           active : pathname === `/${params.storeId}/orders`,
         },
         {
             href:`/${params.storeId}/settings`,
-            label:'Settings',
+            label:'設置',
             active : pathname === `/${params.storeId}/settings`,
         },
 
