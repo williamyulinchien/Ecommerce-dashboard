@@ -88,7 +88,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
       loading={loading}
     />
      <div className="flex items-center justify-between">
-        <Heading title="Store settings" description="Manage store preferences" />
+        <Heading title="商店設定" description="Manage store preferences" />
         <Button
           disabled={loading}
           variant="destructive"
@@ -107,9 +107,9 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Store&apos;s Name</FormLabel>
+                  <FormLabel>商店名稱</FormLabel>
                   <FormControl>
-                    <Input disabled={loading} placeholder="Store name" {...field} />
+                    <Input disabled={loading} placeholder="商店名稱" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
